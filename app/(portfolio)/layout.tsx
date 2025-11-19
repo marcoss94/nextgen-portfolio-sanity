@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
-import { SanityLive } from "@/sanity/lib/live";
+import { ModeToggle } from "@/components/DarkModeToggle";
 import { FloatingDock } from "@/components/FloatingDock";
 import { ThemeProvider } from "@/components/ThemeProvider";
-import { ModeToggle } from "@/components/DarkModeToggle";
+import { SanityLive } from "@/sanity/lib/live";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
